@@ -1,17 +1,80 @@
+/* ===========================
+   Minimal Starter CSS
+   Students should add most styling themselves.
+   Use the resource document to complete layout + centering.
+   =========================== */
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
+/* TODO: Make the page layout fill the screen and place navbar on top */
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  /* hint: flex-direction: column; */
+}
+
+/* ===========================
+   Navbar
+   =========================== */
+
+.navbar {
+  /* TODO: Style the navbar (height, spacing, alignment, background color, etc.) */
+}
+
+.nav-link {
+  /* TODO: Optional - remove underline / adjust spacing */
+}
+
+.nav-logo {
+  /* TODO: Resize the logos so they fit nicely in the navbar */
+  /* hint: height: 40px; width: auto; */
+}
+
+/* ===========================
+   Main Content
+   =========================== */
+
+.content {
+  /* TODO: Make main content take up remaining space and center it */
+  /* hint: flex: 1; display: flex; flex-direction: column; justify-content: center; */
 }
 
 .name-header {
-  font-size: 48px;
-  font-weight: normal;
+  /* TODO: Center the header text and increase font size */
 }
 
+/* ===========================
+   Info Section Layout
+   =========================== */
+
+.info-section {
+  /* TODO: Use Flexbox to put the two boxes side-by-side and center them */
+  /* hint: display: flex; justify-content: center; align-items: center; gap: ...; */
+}
+
+.facts-box {
+  /* TODO: Style the facts section (font size, width, colors, etc.) */
+}
+
+.facts-title {
+  /* TODO: Style the facts title */
+}
+
+.facts-list {
+  /* TODO: Optional - adjust list spacing */
+}
+
+.fact-item {
+  /* TODO: Style list items (color, spacing, etc.) */
+}
+
+.image-box {
+  /* TODO: Style the image container (size, centering, etc.) */
+}
+
+.profile-image {
+  /* TODO: Make the image fit inside the box nicely */
+  /* hint: width: 100%; height: 100%; object-fit: cover; */
+}
