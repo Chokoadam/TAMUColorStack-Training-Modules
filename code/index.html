@@ -6,7 +6,70 @@
     <title>Your Name</title>
     <link rel="stylesheet" href="index.css" />
   </head>
+
   <body>
-    <h1 class="name-header">Your Name</h1>
+    <!-- NAVBAR (Top of Page) -->
+    <nav class="navbar">
+      <!-- TODO: Make these logos clickable + link to the correct websites -->
+      <!-- TODO: Make the logos a reasonable size using CSS -->
+
+      <a
+        class="nav-link"
+        href="insert link here"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          class="nav-logo"
+          src="insert-colorstack-tamu-logo-here"
+          alt="TAMU ColorStack Logo"
+        />
+      </a>
+
+      <a
+        class="nav-link"
+        href="insert link here"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          class="nav-logo"
+          src="insert-colorstack-national-logo-here"
+          alt="ColorStack National Logo"
+        />
+      </a>
+    </nav>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+      <!-- TODO: Center this title and make it larger than the other text -->
+      <h1 class="name-header">Hey, I am Your Name!</h1>
+
+      <!-- TODO: Use Flexbox to place these two boxes side-by-side and center them -->
+      <section class="info-section">
+        <!-- LEFT BOX: Facts -->
+        <div class="facts-box">
+          <p class="facts-title">Here are some interesting facts about me:</p>
+
+          <!-- TODO: Replace these with 3–4 real facts about you -->
+          <ul class="facts-list">
+            <li class="fact-item">Fact 1</li>
+            <li class="fact-item">Fact 2</li>
+            <li class="fact-item">Fact 3</li>
+            <li class="fact-item">Fact 4</li>
+          </ul>
+        </div>
+
+        <!-- RIGHT BOX: Image -->
+        <div class="image-box">
+          <!-- TODO: Replace the src with your own image inside the public/ folder -->
+          <img
+            class="profile-image"
+            src="insert-your-image-filename-here"
+            alt="A photo that represents me"
+          />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
