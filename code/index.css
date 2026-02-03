@@ -13,6 +13,8 @@ html, body {
 /* TODO: Make the page layout fill the screen and place navbar on top */
 body {
   /* hint: flex-direction: column; */
+  background-color: #BEC5A4;
+  flex-direction: column;
 }
 
 /* ===========================
@@ -21,15 +23,24 @@ body {
 
 .navbar {
   /* TODO: Style the navbar (height, spacing, alignment, background color, etc.) */
+  height: 40px;
+  width: auto;
+  background-color: #293624;
 }
 
 .nav-link {
   /* TODO: Optional - remove underline / adjust spacing */
+  text-decoration: none;
+  word-spacing: 1.25px;
+
 }
 
 .nav-logo {
   /* TODO: Resize the logos so they fit nicely in the navbar */
   /* hint: height: 40px; width: auto; */
+  height: 40px;
+  width: auto;
+  padding-left: 6.7px;
 }
 
 /* ===========================
@@ -39,10 +50,21 @@ body {
 .content {
   /* TODO: Make main content take up remaining space and center it */
   /* hint: flex: 1; display: flex; flex-direction: column; justify-content: center; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px; /*move the content to the center of the page*/
 }
 
 .name-header {
   /* TODO: Center the header text and increase font size */
+  font-size: 60px;
+  text-align-last: center;
+  color: #F1EAD8;
+  font-weight: bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-bottom: 35px;
 }
 
 /* ===========================
@@ -52,29 +74,59 @@ body {
 .info-section {
   /* TODO: Use Flexbox to put the two boxes side-by-side and center them */
   /* hint: display: flex; justify-content: center; align-items: center; gap: ...; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .facts-box {
   /* TODO: Style the facts section (font size, width, colors, etc.) */
+  justify-content: center;
+  background-color: #293624;
+  height: 325px;
+  width: 600px;
 }
 
 .facts-title {
   /* TODO: Style the facts title */
+  color:#F1EAD8;
+  font-weight: bolder;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .facts-list {
   /* TODO: Optional - adjust list spacing */
+  line-height: 30px;
+  padding-top: 20px;
+  text-align: center;
 }
 
 .fact-item {
   /* TODO: Style list items (color, spacing, etc.) */
+  color:#F1EAD8;
+  -webkit-text-fill-color: #F1EAD8;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align:left;
+  justify-content: center;
 }
 
 .image-box {
   /* TODO: Style the image container (size, centering, etc.) */
+  justify-content: center;
+  background-color: #293624;
+  height: 325px;
+  width: auto;
 }
 
 .profile-image {
   /* TODO: Make the image fit inside the box nicely */
   /* hint: width: 100%; height: 100%; object-fit: cover; */
+  width: 250px;
+  height: 325px;
+  object-fit: cover;
 }
