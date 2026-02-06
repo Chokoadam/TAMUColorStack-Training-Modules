@@ -6,9 +6,9 @@
 
 :root {
   /* Color Palette Variables */
-  --primary-maroon: #500000;       /* Texas A&M Maroon */
-  --faint-maroon: rgba(80, 0, 0, 0.05); /* For background text */
-  --bg-color: #f4f4f9;             /* Light gray background */
+  --primary-maroon: #500000;  
+  --faint-maroon: rgba(80, 0, 0, 0.05);
+  --bg-color: #f4f4f9;
   --white: #ffffff;
   --white-transparent: rgba(255, 255, 255, 0.95);
   --text-dark: #333333;
